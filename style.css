@@ -257,7 +257,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-image: url(images/contact-bg.jpg);
+    background-image: url(project-imgs/contact-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -265,7 +265,7 @@ h2 {
     position: relative;
     z-index: auto; /* Resetting z-index to default */
 }
-
+ 
 /* Member Section Heading */
 h2 {
     font-weight: bolder;
