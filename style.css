@@ -139,9 +139,9 @@ nav {
 }
  
 .container-md {
-    position: absolute;
+    position: relative;
     width: calc(100% - 25px);
-    height: calc(100% - 10px);
+    height: 100vh;
     margin: 10px auto;
     margin-left: 10px;
     padding: 0;
