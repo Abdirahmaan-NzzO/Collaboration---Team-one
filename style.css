@@ -139,13 +139,13 @@ nav {
 }
  
 .container-md {
-    position: absolute;
+    position: relative;
     width: calc(100% - 25px);
-    height: calc(100% - 10px);
+    height: 100vh;
     margin: 10px auto;
     margin-left: 10px;
     padding: 0;
-    z-index: -100;
+    z-index: -2;
 } 
 
 
@@ -156,8 +156,9 @@ nav {
     text-align: center;
     font-size: 20px;
     box-sizing: border-box;
-    width: 1140px;
-    margin-left: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     z-index: auto; /* Resetting z-index to default */
 }
@@ -166,7 +167,7 @@ nav {
 h2 {
     text-align: center;
     line-height: 1.2;
-    font-size: 16px;
+    font-size: 30px;
     letter-spacing: 0.5px;
     margin: 0;
     color: #232d39;
@@ -174,7 +175,7 @@ h2 {
 }
 
 /* Emphasis on Program Section Heading */
-em {
+.program span {
     color: red;
 }
 
@@ -185,7 +186,7 @@ em {
 
 /* Program Section Paragraph */
 .program p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
     color: #7a7a7a;
     margin-top: 0;
@@ -239,6 +240,10 @@ em {
     color: #ed563b;
     font-weight: 500;
     text-decoration: none;
+}
+
+.program-list .content h3 {
+    font-size: 20px;
 }
 
 /* Discover More Button */
