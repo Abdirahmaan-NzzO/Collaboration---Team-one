@@ -128,7 +128,7 @@ nav {
     border: none;
     background-color: #f56700;
     color: white;
-    padding: 20px;
+    padding: 15px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -147,3 +147,170 @@ nav {
     padding: 0;
     z-index: -2;
 } 
+
+
+  /* Program Section */
+.program {
+    margin-top: 120px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: auto; /* Resetting z-index to default */
+    font-family: 'Poppins',sans-serif;
+}
+ 
+/* Program Section Heading */
+.program h2 {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+     
+    color: #232d39;
+    font-weight: bolder;
+}
+
+/* Emphasis on Program Section Heading */
+.program span {
+    color: red;
+}
+
+/* Program Section Image */
+.program img {
+    margin: 20px auto;
+}
+
+/* Program Section Paragraph */
+.program p {
+    font-size: 18px;
+    line-height: 20px;
+    color: #7a7a7a;
+    margin-top: 0;
+}
+
+/* Program List */
+.program-list {
+    margin-bottom: 80px;
+    text-align: left;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+    z-index: auto; /* Resetting z-index to default */
+    width: 90%;
+    margin-right: auto;
+     
+    margin-top: 40px;
+    
+}
+
+/* Program Item */
+.program-item {
+    display: flex;
+}
+ 
+
+/* Program Item Heading */
+.program-item h3 {
+    margin-top: 20px;
+    margin-bottom: 7px;
+    letter-spacing: 0.1px;
+    color: #232d39;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-left: 20px;
+    
+}
+ 
+
+
+
+/* Program Item Paragraph */
+.program-item p {
+    color: #777;
+}
+
+/* Links in Program Item Paragraph */
+.program-item p a {
+    color: rgb(138, 138, 236);
+}
+
+/* Program Item Link */
+.program-item a {
+    margin-top: 7px;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ed563b;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.program-list .content h3 {
+    font-size: 15px;
+}
+
+/* Discover More Button */
+.disco {
+    margin-left: 20px;
+}
+
+/* Member Section */
+.container {
+    padding: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url(project-imgs/contact-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    z-index: auto; /* Resetting z-index to default */
+}
+ 
+/* Member Section Heading */
+h2 {
+    font-weight: bolder;
+    color: white;
+    line-height: 3;
+}
+
+/* Member Section Paragraph */
+p {
+    margin-left: 20px;
+    line-height: 2;
+    font-size: 20px;
+    color: white;
+}
+
+/* Emphasis in Member Section */
+span {
+    color: red;
+}
+
+/* Member Section Button */
+ 
+.btn-three {
+    border: none;
+    background-color: #fa4f06;
+    color: #f4f4f4; 
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Button Hover Effect */
+.btn-three:hover {
+    background-color: #f07762;
+    transition: 0.5s;
+    color: white;
+}
