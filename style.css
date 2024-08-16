@@ -314,3 +314,143 @@ span {
     transition: 0.5s;
     color: white;
 }
+
+ /* classes section start */
+ .our-classes {
+    width: 90%;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+ /* Header */
+
+  .our-classes .header {
+    margin-top: 260px;
+    margin-bottom: 30px;
+  }
+
+  /* Content */
+
+  .our-classes .header .content {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .our-classes .header .content h3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .our-classes .header .content span {
+    color: #ED563B;
+  }
+
+  .our-classes .header .content img {
+    width: 55px;
+    margin-bottom: 20px;
+  }
+
+.our-classes .header .content P {
+    color: #7a7a7a;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+/* List sections */
+
+  .list-sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    height: 100vh;
+  }
+
+  /* class list */
+
+  .class-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.5;
+    font-weight: 600;
+  }
+
+  /* List header */
+
+  .class-list .list-header {
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    text-transform: lowercase;
+    font-size:large;
+  }
+
+ 
+
+  /* class list section */
+
+  .class-list-section {
+    width: 30%;
+  }
+
+  /* btn one */
+
+  .btn-one {
+    border: none;
+    background-color: #ED563B;
+    padding: 20px 30px;
+    letter-spacing: 0.5;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100%;
+    color: #fff;
+    font-size: x-large;
+  }
+
+  /* first training class section */
+
+
+  .first-training-class-section {
+    width: 60%;
+  }
+  .first-training-class-section img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .first-training-class-section .header {
+    font-size: 23px;
+    font-weight: 700;
+    color: #232d39;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .first-training-class-section p {
+    font-size: 16px;
+    color: #7a7a7a;
+    margin-bottom: 28px;
+    line-height: 2;
+  }
+
+  /* btn two */
+
+ .btn-two {
+    border: none;
+    background-color: #ED563B;
+    padding: 10px 30px;
+    letter-spacing: 0.5;
+    font-weight: bold;
+    border-radius: 8px;
+    color: #fff;
+    font-size: x-large;
+  }
