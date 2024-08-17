@@ -268,8 +268,8 @@ nav {
 /* Member Section */
 .container {
     padding: 120px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5px;
+    margin-right: 5px;
     text-align: center;
     background-image: url(project-imgs/contact-bg.jpg);
     background-position: center center;
@@ -469,8 +469,8 @@ span {
     background-size: cover;
     background-position: center center;
     margin-top: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     padding: 90px;
     color: #ffff;
 }
