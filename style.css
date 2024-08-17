@@ -454,3 +454,90 @@ span {
     color: #fff;
     font-size: x-large;
   }
+
+  
+/* Classes schedule */
+
+.classes-schedule {
+    background-image: url(project-imgs/schedule-bg.jpg);
+    width: 100%;
+    height: 170vh;
+    margin: 130px 0 130px 0;
+    padding: 140px 0 80px 0;
+    color: #ffff;
+}
+
+/* Class schedule content */
+.classes-schedule-content {
+    text-align: center;
+}
+
+/* class schedule header */
+
+.classes-schedule-header {
+    color: #ffff;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.classes-schedule-header h3 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 18px;
+}
+
+.classes-schedule-header span {
+    color: #ed563b;
+}
+
+.classes-schedule-header img {
+    width: 60px;
+    margin-bottom: 18px;
+}
+
+.classes-schedule-header p {
+    margin-bottom: 100px;
+}
+
+/* class schdule table */
+
+/* Classes schedule table cption */
+
+/* ul */
+
+.classes-schedule-table-caption ul {
+    list-style: none;
+}
+
+.classes-schedule-table-caption li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.classes-schedule-table-caption li:first-child {
+    color: #ed563b;
+}
+
+/* classes schedule table table */
+
+.classes-schedule-table-table table  {
+    margin: 0 auto;
+}
+
+/* Table */
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, tr, td {
+    border: 2px solid #ffff;
+    padding: 50px;
+}
+
