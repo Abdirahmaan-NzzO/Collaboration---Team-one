@@ -545,7 +545,7 @@ span {
 
 table {
     border-collapse: collapse;
-     
+    width: 70%;
 }
 
 th, tr, td {
