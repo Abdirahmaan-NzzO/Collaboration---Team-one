@@ -747,3 +747,18 @@ button {
 button:hover {
   background-color: #e04e2a;
 }
+
+/* footer */
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+}
+
+footer p {
+  color: black;
+}
+
+footer p span {
+  color: #ED563B;
+}
