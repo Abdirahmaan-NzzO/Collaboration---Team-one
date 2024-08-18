@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat';
+    font-family: 'poppins';
 }
 a {
     text-decoration: none;
@@ -29,7 +29,7 @@ ul {
     filter: brightness(0.4);
 }
 .background-video::after {
-    position: absolute;
+    position: relative;
     content: '';
     top: 0;
     left: 0;
@@ -42,15 +42,15 @@ ul {
 
 /* Nav bar */
 nav {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
     width: 100%;
     z-index: 1;
     background-color: #80808080;
     padding: 15px 50px;
-    font-weight: 800px;
+    font-weight: 500;
 }
 .navbar ul{
     display: flex;
@@ -59,7 +59,7 @@ nav {
 .navbar ul a {
     padding: 10px 30px;
     display: block;
-    font-size: 14px;
+    font-size: 16px;
 }
 .logo {
     font-size: 30px;
@@ -72,7 +72,7 @@ nav {
 .logo .two {
     color: #f56700;
 }
-.navbar ul li:hover {
+.navbar ul li:hover{
     color: #f56700;
     transition: 0.5s;
    
@@ -83,15 +83,16 @@ nav {
 }
 .btn-one {
     border: none;
-    background-color: #f56700;
-    color: #f4f4f4;
-    font-weight: 800px;
-    font-size: 16px;
-    padding: 10px;
+    background-color: #ED563B;
+    padding: 15px;
+    letter-spacing: 0.5;
+    font-weight: bold;
+    width: 100%;
+    color: #fff;
     cursor: pointer;
-}
+  }
 .btn-one:hover{
-    color: red;
+    color: #ffff;
     transition: 0.5s;
     background-color: #f07762;
 }
@@ -103,6 +104,7 @@ nav {
     z-index: 1;
 }
 .content-hero {
+  position: relative;
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -145,7 +147,7 @@ nav {
     margin: 10px auto;
     margin-left: 10px;
     padding: 0;
-    z-index: -2;
+    z-index: auto;
 } 
 
 
@@ -178,6 +180,7 @@ nav {
 /* Emphasis on Program Section Heading */
 .program span {
     color: red;
+    
 }
 
 /* Program Section Image */
@@ -254,7 +257,8 @@ nav {
 }
 
 .program-list .content h3 {
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* Discover More Button */
@@ -265,8 +269,8 @@ nav {
 /* Member Section */
 .container {
     padding: 120px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5px;
+    margin-right: 5px;
     text-align: center;
     background-image: url(project-imgs/contact-bg.jpg);
     background-position: center center;
@@ -275,6 +279,7 @@ nav {
     color: white;
     position: relative;
     z-index: auto; /* Resetting z-index to default */
+     
 }
  
 /* Member Section Heading */
@@ -288,7 +293,7 @@ h2 {
 p {
     margin-left: 20px;
     line-height: 2;
-    font-size: 20px;
+    font-size: 17px;
     color: white;
 }
 
@@ -301,11 +306,14 @@ span {
  
 .btn-three {
     border: none;
-    background-color: #fa4f06;
+    background-color: #ED563B;
     color: #f4f4f4; 
-    padding: 15px;
+    padding: 14px ;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+   margin-top: 20px;
+     
 }
 
 /* Button Hover Effect */
@@ -318,7 +326,7 @@ span {
  /* classes section start */
  .our-classes {
     width: 90%;
-    margin-top: 50px;
+    margin-top: 1px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -326,7 +334,7 @@ span {
  /* Header */
 
   .our-classes .header {
-    margin-top: 260px;
+    margin-top: 160px;
     margin-bottom: 30px;
   }
 
@@ -367,6 +375,7 @@ span {
     align-items: center;
     gap: 70px;
     height: 100vh;
+    margin-top: 90px;
   }
 
   /* class list */
@@ -407,13 +416,12 @@ span {
   .btn-one {
     border: none;
     background-color: #ED563B;
-    padding: 20px 30px;
+    padding: 15px;
     letter-spacing: 0.5;
     font-weight: bold;
-    border-radius: 8px;
     width: 100%;
     color: #fff;
-    font-size: x-large;
+    cursor: pointer;
   }
 
   /* first training class section */
@@ -444,15 +452,14 @@ span {
 
   /* btn two */
 
- .btn-two {
+ .button-two {
     border: none;
     background-color: #ED563B;
     padding: 10px 30px;
     letter-spacing: 0.5;
     font-weight: bold;
-    border-radius: 8px;
     color: #fff;
-    font-size: x-large;
+    cursor: pointer;
   }
 
   
@@ -460,10 +467,12 @@ span {
 
 .classes-schedule {
     background-image: url(project-imgs/schedule-bg.jpg);
-    width: 100%;
-    height: 170vh;
-    margin: 130px 0 130px 0;
-    padding: 140px 0 80px 0;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 90px;
     color: #ffff;
 }
 
@@ -476,15 +485,16 @@ span {
 
 .classes-schedule-header {
     color: #ffff;
-    width: 60%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
+     
 }
 
 .classes-schedule-header h3 {
     color: #fff;
-    font-size: 35px;
-    font-weight: bolder;
+    font-size: 30px;
+    font-weight: bold;
     margin-bottom: 18px;
 }
 
@@ -498,7 +508,8 @@ span {
 }
 
 .classes-schedule-header p {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
+    font-size: 15px;
 }
 
 /* class schdule table */
@@ -514,8 +525,8 @@ span {
 .classes-schedule-table-caption li {
     display: inline-block;
     margin-right: 15px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: normal;
     margin-bottom: 40px;
 }
 
@@ -526,18 +537,121 @@ span {
 /* classes schedule table table */
 
 .classes-schedule-table-table table  {
-    margin: 0 auto;
+    align-items: center;
+    width: 100%;
 }
 
 /* Table */
 
 table {
     border-collapse: collapse;
-    width: 70%;
+     
 }
 
 th, tr, td {
-    border: 2px solid #ffff;
-    padding: 50px;
+    border: 1px solid #ffff;
+    padding: 35px;
+    font-weight: normal;
 }
 
+ /*Expert trainer*/
+
+ 
+ .trainer{
+    margin-top: 140px;
+    margin-bottom: 80px;
+    width: 70%;
+    margin-left: 190px;
+  }
+  #container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  .trainer{
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 80px;
+  }
+  .trainer em{
+    color: red;
+  }
+   
+  .trainer h2{
+    font-size: 28px;
+    font-weight: bold;
+    color: #232d39;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+     margin-bottom: 0px;
+  }
+  .trainer img{
+    margin:  10px;
+  }
+  .trainer p{
+    font-size: 18px;
+    line-height: 2;
+    color: #7a7a7a;
+    margin-top: 10px;
+  
+  }
+  .trainer-item{
+    display: flex;
+    position: relative;
+    width: 100%;
+   margin-bottom: 40px;
+   
+  }
+  .trainer-item .content{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .image{
+    width: 100%;
+    border-radius: 5px;
+  }
+  .trainer-item span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #ed563b;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  .trainer-item h4{
+    font-size: 19px;
+    font-weight: 600;
+    color: #232d39;
+    letter-spacing: 0.5px;
+    margin-bottom: 18px;
+  }
+  .trainer-item p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #7a7a7a;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   
+  .trainer-item ul.social-icons li {
+    display: inline-block;
+    margin-right: 12px;
+  }
+  .trainer-item ul.social-icons li:last-child {
+    margin-right: 0px;
+  }
+  .trainer-item ul.social-icons li a {
+    color: #232d39;
+    transition: all .3s;
+  }
+  .trainer-item ul.social-icons li a:hover {
+    color: #ed563b;
+  }
